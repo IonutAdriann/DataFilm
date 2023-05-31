@@ -1,4 +1,3 @@
-# company
 variable "project" {
   type = string
   description = "datafilm"
