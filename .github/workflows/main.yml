@@ -23,7 +23,7 @@ jobs:
     # Use the Bash shell regardless of whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
       run:
-        working-directory: ./infra/
+        working-directory: infra/
 
         
     steps:
