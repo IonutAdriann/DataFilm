@@ -1,12 +1,13 @@
-# company
-variable "company" {
+variable "project" {
   type = string
-  description = "This variable defines the name of the company"
+  description = "datafilm"
+  default     = "datafilm"
 }
 # environment
 variable "environment" {
   type = string
-  description = "This variable defines the environment to be built"
+  description = "Environment (prod)"
+  default     = "default-environment-value"
 }
 # azure region
 variable "location" {
