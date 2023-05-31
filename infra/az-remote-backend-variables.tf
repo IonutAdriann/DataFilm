@@ -1,11 +1,13 @@
 variable "project" {
   type = string
   description = "datafilm"
+  default     = "default-project-value"
 }
 # environment
 variable "environment" {
   type = string
   description = "Environment (prod)"
+  default     = "default-environment-value"
 }
 # azure region
 variable "location" {
