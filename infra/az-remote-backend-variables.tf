@@ -1,7 +1,7 @@
 variable "project" {
   type = string
   description = "datafilm"
-  default     = "default-project-value"
+  default     = "datafilm"
 }
 # environment
 variable "environment" {
