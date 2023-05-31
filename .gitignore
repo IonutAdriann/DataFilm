@@ -42,6 +42,7 @@ TestResults.xml# See https://help.github.com/articles/ignoring-files/ for more a
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 **/.terraform
 **.tfstate
@@ -219,3 +220,5 @@ __blobstorage__
 __queuestorage__
 __azurite_db*__.json
 .python_packages
+=======
+>>>>>>> 74b75bf (Feat/ci cd setup-first-functionality (#2))
