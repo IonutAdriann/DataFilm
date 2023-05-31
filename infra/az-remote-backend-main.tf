@@ -1,3 +1,6 @@
+resource "random_id" "tf_name" {
+  byte_length = 4
+}
 
 # Define Terraform provider
 terraform {
