@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { ColorModeContext } from '../../utils/ToggleColorMode';
 import { setUser, userSelector } from '../../features/auth';
-import { Sidebar, Search } from '..';
+import { SideBar, Search } from '..';
 import { fetchToken, createSessionId, moviesApi } from '../../utils';
 import useStyles from './styles';
 
