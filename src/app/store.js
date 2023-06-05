@@ -10,6 +10,7 @@ const store = configureStore({
     currentGenreOrCategory: genreOrCategoryReducer,
     user: userReducer,
   },
+
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(tmdbApi.middleware),
 });
@@ -17,3 +18,6 @@ const store = configureStore({
 setupListeners(store.dispatch);
 
 export default store;
+
+
+
